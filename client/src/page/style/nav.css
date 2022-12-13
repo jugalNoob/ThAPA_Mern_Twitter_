@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Roboto+Condensed&family=Rubik+Microbe&display=swap');
+
+.div-all{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:#00b3ff ;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.head-one{
+margin-left: 20px;
+
+}
+
+.head-one h1{
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.font{
+
+    margin-left: 10px;
+    font-size: 2rem;
+    color: rgb(0, 255, 4);
+}
+
+.nav{
+    display: flex;
+    margin-left: 40%;
+ 
+}
+
+.nav a:link{
+
+    text-transform: capitalize;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+
+    background: linear-gradient(145deg, #00a1e6, #00c0ff);
+    box-shadow:  5px 5px 10px #0098d9,
+                 -5px -5px 10px #00ceff;
+             font-weight: bold;
+           
+}
+.nav a:link:hover{
+
+    text-transform: capitalize;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+  
+    background: #00b3ff;
+    box-shadow: inset 5px 5px 10px #0098d9,
+                inset -5px -5px 10px #00ceff;
+             font-weight: bold;
+           
+}
+
+
+
+
+.nav a:visited{
+
+    border-radius: 50px;
+color: rgb(245, 227, 227);
+}
+
+
+/* media quary start row class line 700px start 500px */
+
+@media (max-width:830px) and (min-width:680px){
+
+    .div-all{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color:#00b3ff ;
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+        border: 5px solid black;
+    }
+    
+    .head-one{
+    margin-left: 20px;
+    
+    }
+    
+    .head-one h1{
+        text-transform: capitalize;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    .font{
+    
+        margin-left: 10px;
+        font-size: 2rem;
+        color: rgb(0, 255, 4);
+    }
+    
+    .nav{
+        display: flex;
+        margin-left: 30%;
+     
+    }
+    
+    .nav a:link{
+    
+        text-transform: capitalize;
+        padding: 1rem;
+        margin: 1rem;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+    
+        background: linear-gradient(145deg, #00a1e6, #00c0ff);
+        box-shadow:  5px 5px 10px #0098d9,
+                     -5px -5px 10px #00ceff;
+                 font-weight: bold;
+               
+    }
+    .nav a:link:hover{
+    
+        text-transform: capitalize;
+        padding: 1rem;
+        margin: 1rem;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+      
+        background: #00b3ff;
+        box-shadow: inset 5px 5px 10px #0098d9,
+                    inset -5px -5px 10px #00ceff;
+                 font-weight: bold;
+               
+    }
+    
+    
+    
+    
+    .nav a:visited{
+    
+        border-radius: 50px;
+    color: rgb(245, 227, 227);
+    }
+    
+
+
+
+}
+
+
+/* @medi start 680px and 200px start row class */
+
+
+@media (max-width:680px) and (min-width:280px){
+
+    .div-all{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color:#00b3ff ;
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+        border: 5px solid black;
+    }
+    
+    .head-one{
+    margin-left: 20px;
+    
+    }
+    
+    .head-one h1{
+        text-transform: capitalize;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    .font{
+    
+        margin-left: 10px;
+        font-size: 2rem;
+        color: rgb(0, 255, 4);
+    }
+    
+    .nav{
+        display: flex;
+        margin-left: 13%;
+     
+    }
+    
+    .nav a:link{
+    
+        text-transform: capitalize;
+        padding: 0.6rem;
+        margin: 0.6rem;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+    
+        background: linear-gradient(145deg, #00a1e6, #00c0ff);
+        box-shadow:  5px 5px 10px #0098d9,
+                     -5px -5px 10px #00ceff;
+                 font-weight: bold;
+               
+    }
+    .nav a:link:hover{
+    
+        text-transform: capitalize;
+        padding: 0.8rem;
+        margin: 0.8rem;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 10px;
+      
+        background: #00b3ff;
+        box-shadow: inset 5px 5px 10px #0098d9,
+                    inset -5px -5px 10px #00ceff;
+                 font-weight: bold;
+               
+    }
+    
+    
+    
+    
+    .nav a:visited{
+    
+        border-radius: 50px;
+    color: rgb(245, 227, 227);
+    }
+    
+
+}

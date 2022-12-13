@@ -1,0 +1,82 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_messages",
+				"type": "string"
+			}
+		],
+		"name": "Add_Message",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "DeletMess",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "All_Mess",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "messages",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "user_id",
+				"type": "address"
+			}
+		],
+		"name": "CheckMess",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "messages",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Twitter.Mess",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

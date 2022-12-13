@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Roboto+Condensed&family=Rubik+Microbe&display=swap');
+
+
+
+.dash-all{
+    background-color: #1c7eca;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+
+.dash-info{
+ 
+    
+    width: 55%;
+    height: 500px;
+    
+    margin: auto!important;
+    
+    border-radius: 50px;
+    background: #1c7eca;
+    box-shadow: inset 5px 5px 10px #186bac,
+                inset -5px -5px 10px #2091e8;
+}
+
+.dash-na{
+
+    margin-top: 10px;
+}
+
+.dash-na h1{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgawe{
+
+    margin: auto;
+    text-align: center;
+}
+
+.imgawe img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+
+
+
+}
+
+.dash-na h2{
+    text-align: center;
+    color: rgb(252, 234, 234);
+    text-align: center;
+    text-transform: capitalize;
+}

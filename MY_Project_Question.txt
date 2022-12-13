@@ -1,0 +1,80 @@
+://\\JWT 
+
+JSON Web Token is an open standard for securely transferring data within parties
+ using a JSON object. JWT is used for stateless authentication mechanisms for
+  users and providers, this means maintaining session is on the client-side instead 
+  of storing sessions on the server. Here, we will implement the JWT authentication 
+  system in NodeJs.
+
+
+://\\cookiParser
+//cookie-parser is a middleware which parses cookies attached to the client request 
+object. To use it, we will require it in our index. js file; this can be used the same 
+way as we use other middleware.
+
+
+://\\ cors
+
+::CORS stands for Cross-Origin Resource Sharing . It allows us to relax 
+the security applied to an API. This is done by bypassing the Access-Control-Allow-Origin
+ headers, which specify which origins can access the API
+
+
+ ://\\ENV
+const port=process.env.PORT // this is means host another secure folder
+
+://\\app.use(express.json())
+
+:create json form data
+
+://\\what is sechema?
+
+What is a Schema? A schema is a JSON object that defines the the structure and 
+contents of your data. You can use Atlas App Services' BSON schemas, which extend 
+the JSON Schema standard, to define your application's data model and validate documents 
+whenever they're created, changed, or deleted.
+
+
+Qwhai is mongoose?
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships
+ between data, provides schema validation, and is used to translate between objects in code and th
+ representation of those objects in MongoDB.
+
+
+Qwhat is models
+ //models collection name of database
+
+
+ Qwhat is encryption vs hashing?
+ ANS:Bycript hashing 
+
+
+:: encryption jugal covert data - > kipol
+encode and decode 
+.doecode data
+
+ ::hashing
+
+  is one way communication 
+
+  thapa -> not decode kj.lj.dsmkjscfdjfsfkl;;
+
+  hacking  bycript 3year
+
+
+Qwhat is middleware?
+The middleware in node. js is a function that will have all the access for requesting an
+ object, responding to an object, and moving to the next middleware
+ function in the application request-response cycle.
+
+
+://\\bycript
+::pre use for middle  check user password convert hashing 
+
+::this keywaord not work fat arrow function not work --> this.password
+
+::next() use for middleware only
+
+::this.password ismodifed  only change password filde
+
+

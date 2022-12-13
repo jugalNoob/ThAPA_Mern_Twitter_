@@ -1,0 +1,106 @@
+.sign_in{
+
+    background-color: #2e6d76;
+    width: 100%;
+    height: 100vh; 
+    position:fixed ;  
+   
+   }
+   
+   .signin{
+     
+       width: 350px;
+       height: 500px;
+       margin-top: 70px;
+       border-radius: 34px;
+       border-radius: 34px;
+       background: linear-gradient(145deg, #31757e, #29626a);
+       box-shadow:  5px 5px 0px #285e65,
+                    -5px -5px 0px #347c87;
+                   margin: auto;  
+                   margin-top: 70px;  
+                   
+   }
+   
+   .head-two{
+       color: white;
+   
+       text-align: center!important;
+       margin-top: 70px;
+   
+      
+       
+   }
+   
+   .head-two h1{
+       margin-top: 20px;
+       text-transform: capitalize;
+   }
+   
+   .signin p{
+       text-transform: capitalize;
+       color: white;
+   }
+   
+   
+
+   
+   .signin input[type="email"]{
+   
+       outline: none;
+       border:none;
+       margin-top: 20px;
+       border-radius: 7px;
+       padding: 7px;
+       background-color: black;
+       color: white;
+      
+      
+   }
+   .signin input[type="email"]::placeholder{
+   
+       text-transform: capitalize;
+       
+   
+   }
+   
+   
+   
+   
+   
+   .signin input[type="password"]{
+   
+       outline: none;
+       border:none;
+       margin-top: 20px;
+       border-radius: 7px;
+       padding: 7px;
+       background-color: black;
+       color: white;
+      
+   }
+   
+   .signin input[type="password"]::placeholder{
+   
+       text-transform: capitalize;
+       
+   
+   }
+   
+   .signin button{
+   
+       outline: none;
+       border:none;
+       border-radius: 34px;
+       border-radius: 34px;
+       background: linear-gradient(145deg, #29626a, #31757e);
+       box-shadow:  5px 5px 0px #285e65,
+                    -5px -5px 0px #347c87;
+                padding: 10px;
+                font-size: 1.4rem;
+                text-transform: capitalize;
+                color: white;
+                font-weight: bold;
+                margin-top: 10px;
+                
+   }

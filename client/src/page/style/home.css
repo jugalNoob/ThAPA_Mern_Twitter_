@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&family=Roboto+Condensed&family=Rubik+Microbe&display=swap');
+
+
+.back{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    
+}
+
+.all-one{
+
+    background-color: white;
+    width: 70%;
+    height:500px;
+    margin: auto;
+    border: 4px solid rgb(0, 195, 255);
+border-radius: 35px;
+margin-top: 25px;
+background-color: black;
+}
+
+
+.head-two{
+
+    text-align: center;
+}
+
+.head-two h1{
+    color: white!important;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.crypto{
+    background-color: #b2ccd7;
+
+    width: 50%;
+    height:200px;
+    margin: auto;
+margin-top: 25px;
+border-radius: 25px;
+
+}
+
+
+.all-crypto{
+
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.btc{
+    margin: 10px;
+    border-radius: 10px;
+background: #b2ccd7;
+box-shadow: inset 5px 5px 10px #97adb7,
+            inset -5px -5px 10px #cdebf7;
+            height: 150px;
+            align-items: center;
+            text-align: center;
+}
+
+.btc h1{
+
+    color: orange;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.btc h2{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.eth{
+    margin: 10px;
+    border-radius: 10px;
+background: #b2ccd7;
+box-shadow: inset 5px 5px 10px #97adb7,
+            inset -5px -5px 10px #cdebf7;
+            height: 150px;
+}
+
+.eth h1{
+
+    color: rgb(60, 255, 0);
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.eth h2{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.bnb{
+    margin: 10px;
+    border-radius: 10px;
+background: #b2ccd7;
+box-shadow: inset 5px 5px 10px #97adb7,
+            inset -5px -5px 10px #cdebf7;
+            height: 150px;
+}
+
+.bnb h1{
+
+    color: rgb(225, 255, 0);
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.bnb h2{
+    font-family: 'Roboto', sans-serif;
+    
+}
